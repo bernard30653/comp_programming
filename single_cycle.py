@@ -8,7 +8,7 @@ def hasSingleCycle(array):
     elemVisited = 0
 	currIdx = 0
 	while elemVisited < arrLen:
-		if array[currIdx] ==0:  #e.g. [1,1,0]
+		if array[currIdx] ==0:
 			return False
 		if elemVisited > 0 and currIdx == 0:
 			return False
